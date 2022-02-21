@@ -1,0 +1,17 @@
+.form-controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-control label {
+  font-size: 2rem;
+  /* color: #fff; */
+}
+
+.form-control select {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}

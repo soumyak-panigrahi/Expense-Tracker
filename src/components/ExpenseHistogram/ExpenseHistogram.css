@@ -1,0 +1,26 @@
+.histogram {
+  max-width: 1100px;
+  margin: 1rem auto;
+  display: flex;
+  height: 200px;
+  justify-content: space-evenly;
+  background-color: #fdeff4;
+}
+
+.histogram-bar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.histogram-bar span {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0.3rem;
+}
+
+.histogram-bar span::first-letter {
+  text-transform: uppercase;
+}

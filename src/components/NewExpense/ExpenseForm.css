@@ -1,0 +1,51 @@
+.expense-form__controls {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.expense-form__actions {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  margin: 1rem;
+}
+
+.compact-mode {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+
+.btn {
+  background-color: #21325e;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.compact-mode .btn {
+  margin: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.expense-form__control {
+  display: flex;
+  margin: 1rem;
+  flex-flow: column wrap;
+  flex-grow: 1;
+}
+
+.expense-form__control label {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.expense-form__control input {
+  font-size: 1.3rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
